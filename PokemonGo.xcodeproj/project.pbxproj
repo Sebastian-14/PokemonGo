@@ -13,6 +13,8 @@
 		9E4E48EE236B3B79000E36D2 /* PokemonGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E48EC236B3B79000E36D2 /* PokemonGo.xcdatamodeld */; };
 		9E4E48F0236B3B7B000E36D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E48EF236B3B7B000E36D2 /* Assets.xcassets */; };
 		9E4E48F3236B3B7B000E36D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E48F1236B3B7B000E36D2 /* LaunchScreen.storyboard */; };
+		9E4E48FC236B3E90000E36D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4E48FB236B3E90000E36D2 /* MapKit.framework */; };
+		9E4E48FE236B56A4000E36D2 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E48FD236B56A4000E36D2 /* PokedexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9E4E48EF236B3B7B000E36D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4E48F2236B3B7B000E36D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E4E48F4236B3B7B000E36D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4E48FB236B3E90000E36D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9E4E48FD236B56A4000E36D2 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4E48FC236B3E90000E36D2 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				9E4E48E4236B3B79000E36D2 /* PokemonGo */,
 				9E4E48E3236B3B79000E36D2 /* Products */,
+				9E4E48FA236B3E90000E36D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				9E4E48F1236B3B7B000E36D2 /* LaunchScreen.storyboard */,
 				9E4E48F4236B3B7B000E36D2 /* Info.plist */,
 				9E4E48EC236B3B79000E36D2 /* PokemonGo.xcdatamodeld */,
+				9E4E48FD236B56A4000E36D2 /* PokedexViewController.swift */,
 			);
 			path = PokemonGo;
+			sourceTree = "<group>";
+		};
+		9E4E48FA236B3E90000E36D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E48FB236B3E90000E36D2 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4E48E8236B3B79000E36D2 /* ViewController.swift in Sources */,
+				9E4E48FE236B56A4000E36D2 /* PokedexViewController.swift in Sources */,
 				9E4E48E6236B3B79000E36D2 /* AppDelegate.swift in Sources */,
 				9E4E48EE236B3B79000E36D2 /* PokemonGo.xcdatamodeld in Sources */,
 			);
